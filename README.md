@@ -33,3 +33,6 @@ analysis.plot_retention()
 
 
 ```
+
+
+![](https://imgur.com/XVM3TkC.png)
