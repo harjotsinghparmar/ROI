@@ -66,6 +66,7 @@ class cohort_analysis():
         sns.set(style='white')
         fig,ax = plt.subplots(figsize=self.retention_table.shape)
         sns.heatmap(self.retention_table,annot=True,fmt='.0%',cmap=cmap)
+        ax.tick_params(axis=u'both', which=u'both',length=0)
         ax.xaxis.tick_top()
         ax.xaxis.set_label_position('top') 
 
