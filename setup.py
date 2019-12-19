@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="roi", # Replace with your own username
-    version="0.0.10",
+    version="0.1.2",
     author="Harjot Singh Parmar",
     author_email="hsparmar@uwaterloo.ca",
     description="Marketing ROI package",

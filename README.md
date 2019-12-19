@@ -19,9 +19,17 @@ Example: Cohort Analysis
 import pandas as pd
 import matplotlib.pyplot as plt
 from roi import cohort analysis
+
 # Read dataset 
 data= pd.read_csv('/content/data.csv',encoding='latin',parse_dates=['OrderDate'])
+
 #Pass the dataframe to an instance of cohort analysis class and also pass name of the column with UserId and ActivityDate.
 analysis = cohort_analysis(input_df=data, ActivityDate='OrderDate', CustomerID='UserId')
+
+## Generate retention heatmap
+
+analysis.plot_retention()
+
+
 
 ```
