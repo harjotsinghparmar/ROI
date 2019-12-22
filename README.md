@@ -4,6 +4,11 @@
 ROI - Return on Investment is an all inclusive python package for maketing analytics. The first release focuses on cohort analysis.
 The plan is to slowly include more analyses, as the package grows. 
 
+RoadMap:
+- Customer Lifetime Value caculations 
+- Churn Analysis 
+- Add support for other plotting libraries
+
 ### Installation:
 ---
 You can install **ROI** using 
