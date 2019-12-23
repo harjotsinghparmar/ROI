@@ -5,6 +5,7 @@ ROI - Return on Investment is an all inclusive python package for maketing analy
 The plan is to slowly include more analyses, as the package grows. 
 
 RoadMap:
+- PySpark support
 - Customer Lifetime Value caculations 
 - Churn Analysis 
 - Add support for other plotting libraries
