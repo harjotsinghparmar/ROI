@@ -6,7 +6,7 @@ The plan is to slowly include more analyses, as the package grows.
 
 RoadMap:
 - PySpark support
-- Customer Lifetime Value caculations 
+- Customer Lifetime Value calculations 
 - Churn Analysis 
 - Add support for other plotting libraries
 
